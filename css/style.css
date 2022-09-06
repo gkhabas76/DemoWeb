@@ -82,7 +82,17 @@ pre {
   height: 400px;
   background-color: var(--primary-color);
   color: #fff;
+  position: relative;
+}
+
+#clock {
   position: absolute;
+  top: 10%;
+  left: 15%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: 7px;
 }
 
 .showcase h1 {
